@@ -58,3 +58,10 @@ ORDER BY COUNT(last_name) DESC;
 SELECT *
 FROM employees
 WHERE emp_no = '499942'
+
+SELECT employees.emp_no, employees.last_name, employees.first_name, employees.emp_title_id, title.title, salary.salary 
+FROM employees
+JOIN salaries AS salary
+  ON employees.emp_no = salary.emp_no
+JOIN titles AS title
+  ON employees.emp_title_id = title.title_id
