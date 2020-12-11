@@ -21,7 +21,7 @@ Inspected the CSVs and sketched out an ERD of the tables using http://www.quickd
 ![EmployeeSQLERD](EmployeeSQL/EmployeeSQLERD.png)
 
 # Data Engineering
-* Used the information we have to create a table schema for each of the six CSV files, remembering to specify data types, primary keys, foreign keys, and other constraints.
+* Used the information we had to create a table schema for each of the six CSV files in PostgreSQL, remembering to specify data types, primary keys, foreign keys, and other constraints.
 
   * For the primary keys, checked to see if the column is unique, otherwise created a composite key.
   * Ensured tables were created in the correct order to handle foreign keys.
