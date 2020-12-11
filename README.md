@@ -23,8 +23,8 @@ Inspected the CSVs and sketched out an ERD of the tables using http://www.quickd
 # Data Engineering
 * Used the information we have to create a table schema for each of the six CSV files, remembering to specify data types, primary keys, foreign keys, and other constraints.
 
-  * For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
-  * Be sure to create tables in the correct order to handle foreign keys.
+  * For the primary keys, checked to see if the column is unique, otherwise created a composite key.
+  * Ensured tables were created in the correct order to handle foreign keys.
 
 * Imported each CSV file into the corresponding SQL table. Took care to import the data in the same order that the tables were created and accounted for the headers when importing to avoid errors.
 
