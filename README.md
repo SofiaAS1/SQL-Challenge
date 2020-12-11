@@ -13,7 +13,7 @@ In this assignment, we design the tables to hold the data in the CSVs, import th
 
 2. Data Analysis
 
-Note: The terms "Data Modeling" & "Data Engineering," are interchangeable/ equal terms. Data Engineering is the more modern wording of Data Modeling.
+Note: The terms "Data Modeling" & "Data Engineering," are interchangeable in this readme. Data Engineering is the more modern wording of Data Modeling.
 
 # Data Modeling
 Inspected the CSVs and sketched out an ERD of the tables using http://www.quickdatabasediagrams.com.
