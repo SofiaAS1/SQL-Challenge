@@ -13,7 +13,7 @@ In this assignment, we design the tables to hold the data in the CSVs, import th
 
 2. Data Analysis
 
-Note: The terms "Data Modeling" & "Data Engineering," are interchangeable in this readme. Data Engineering is the more modern wording of Data Modeling.
+Note: The terms "Data Modeling" & "Data Engineering," are interchangeable in this project. Data Engineering is the more modern wording of Data Modeling.
 
 # Data Modeling
 Inspected the CSVs and sketched out an ERD of the tables using http://www.quickdatabasediagrams.com.
@@ -22,12 +22,13 @@ Inspected the CSVs and sketched out an ERD of the tables using http://www.quickd
 
 # Data Engineering
 * Used the information we have to create a table schema for each of the six CSV files, remembering to specify data types, primary keys, foreign keys, and other constraints.
-** For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
-** Be sure to create tables in the correct order to handle foreign keys.
+
+  * For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
+  * Be sure to create tables in the correct order to handle foreign keys.
 
 * Imported each CSV file into the corresponding SQL table. Took care to import the data in the same order that the tables were created and accounted for the headers when importing to avoid errors.
 
-# Data Analysis
+# SQL Analysis
 
 Once the database was completed, the following analyses were performed:
 
@@ -45,7 +46,7 @@ Once the database was completed, the following analyses were performed:
 
 7. Listed all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+8. In descending order, listed the frequency count of employee last names, i.e., how many employees shared each last name.
 
 
 # Pandas Analysis
